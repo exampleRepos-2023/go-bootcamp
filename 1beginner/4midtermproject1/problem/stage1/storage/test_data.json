@@ -1,0 +1,29 @@
+{
+  "last_task_id": 2,
+  "epics": {
+    "0": {
+      "id": 0,
+      "title": "Epic - Project 1",
+      "description": "This is Project 1 for the Bootcamp",
+      "status": "IN_PROGRESS",
+      "story_ids": [
+        2,
+        3
+      ]
+    }
+  },
+  "stories": {
+    "1": {
+      "id": 1,
+      "title": "Story - Project 1 Solution",
+      "description": "Please provide full implement for Project 1",
+      "status": "CLOSED"
+    },
+    "2": {
+      "id": 2,
+      "title": "Story - Project 1 README",
+      "description": "Please create README file for Project 1",
+      "status": "IN_PROGRESS"
+    }
+  }
+}
