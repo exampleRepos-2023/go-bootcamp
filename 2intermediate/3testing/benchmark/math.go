@@ -10,7 +10,7 @@ func Abs(a int) int {
 }
 
 func AbsSlow(a int) int {
-	time.Sleep(time.Nanosecond)
+	time.Sleep(time.Nanosecond + 1)
 	if a > 0 {
 		return a
 	}

@@ -65,4 +65,9 @@ func main() {
 	d.sleep()
 	d.walk()
 	d.swim()
+
+	g := goose{}
+	g.a.eat()
+	g.w.walk()
+	g.s.swim()
 }
